@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: rgb(204, 206, 207);
+    z-index: 2;
+}
+.logo{
+    height: 80px;
+    width: 20%;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    
+
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.navlinks{
+    height: 100px;
+    width: 50%;
+    position: absolute;
+    left: 43%;
+    
+}
+.navlinks a{
+    position: relative;
+    text-decoration: none;
+    top: 40px;
+    font-size: 25px;
+    font-family: Tahoma;
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
+    left: 23%;
+    padding: 6px 15px;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: rgb(60, 39, 15);
+}
+.navlinks a:hover{
+    color: rgb(201, 140, 36);
+}
+html{
+    scroll-padding-top: 13.5%;
+}
+.Home{
+    height: 40.2rem;
+    width: 100%;
+    background-color: aquamarine;
+}
+.image{
+    height: 40.2rem;
+    width: 100%;
+    background-color: coral;
+}
+.Home .image .pic1{
+    height: 40.2rem;
+    width: 100%;
+    position: absolute;
+    
+}
+.Home .image .pic2{
+    height: 60%;
+    width: 50%;
+    position: absolute;
+    
+    left: 45%;
+    top: 25%;
+    border-radius: 50%;
+}
+.Home .image .pic3{
+    height: 70%;
+    width: 30%;
+    position: absolute;
+    z-index: 1;
+    left: 4%;
+    top: 20%;
+    
+}
+
+.Menu{
+    height: 40.2rem;
+    width: 100%;
+    background: linear-gradient(165deg, rgb(60, 39, 15), rgb(141, 97, 22));
+    display: flex;
+}
+
+.Menu .card{
+    height: 400px;
+    width: 250px;
+    background-color: bisque;
+    margin-top: 120px;
+    margin-left: 43px;
+    border-radius: 4px;
+    
+} 
+.card1{
+    height: 200px;
+    width: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
+    
+}
+.card .name{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: Georgia;
+}
+.card i{
+    position: relative;
+    left: 70px;
+    top: 10px;
+}
+.card .cost{
+    position: relative;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    top: 20px;
+    font-weight: bold;
+}
+.card button{
+    padding: 8px 10px;
+    margin-top: 40px;
+    margin-left: 70px;
+    font-size: 20px;
+    font-family: Geneva;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(60, 39, 15);;
+}
+.card button:hover{
+    color: rgb(201, 140, 36);
+}
+
+.Reviews{
+    height: 40.2rem;
+    width: 100%;
+    background-color: rgb(22, 92, 101);
+    display: flex;
+}
+.Reviews video{
+    height: 35rem;
+    position: absolute;
+    left: 15%;
+    margin-top: 2.5rem;
+    
+    
+}
+.main-review{
+    height: 30rem;
+    width: 50%;
+    margin-left: 50%;
+    margin-top: 50px;
+    display: block;
+}
+.review-card{
+    height: 100px;
+    width: 80%;
+   border: 2px solid black;
+    margin-top: 50px;
+    margin-left: 10%;
+    border-radius: 50px;
+    display: flex;
+    background-color: rgb(209, 187, 126);
+    
+}
+.review-card img{
+    height: 90%;
+    width: 12%;
+    margin-top: 1%;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+.review-card p{
+    width: 73%;
+    margin-top: 10px;
+    font-size: 18px;
+    margin-left: 3%;
+    font-family: Georgia;
+}
+
+.Contact{
+    height: 40.2rem;
+    width: 100%;
+    background-color:  rgb(187, 149, 106);
+    display: flex;
+}
+.Contact h1{
+    font-size: 35px;
+    font-family: geneva;
+    color: rgb(0, 0, 0);
+    padding-top: 80px;
+    padding-left: 14%;
+}
+.Contact video{
+    position: absolute;
+    height: 400px;
+    width: 50%;
+    
+    left: 5%;
+    margin-top: 150px;
+    z-index: 1;
+    
+}
+.Contact h2{
+    font-size: 25px;
+    font-family: geneva;
+    
+    padding-top: 180px;
+    padding-left: 16%;
+}
+.Contact iframe{
+    margin-top: 15%;
+    margin-left: -10%;
+}
+
+@media (max-width:500px){
+    header{
+        height: 150px;
+        display: flex;
+        
+    }
+    .logo{
+        width: 50%;
+        left: 5px;
+    }
+    .navlinks{
+        height: 50px;
+        width: 100%;
+        top: 100px;
+        left: 0%;
+    }
+    .navlinks a{
+        position: relative;
+        display: inline-block;
+        text-decoration: none;
+        top: 05px;
+        left: 2.5%;
+        font-size: 20px;
+        font-family: Tahoma;
+        color: rgb(255, 255, 255);
+        margin-left: 25px;
+        padding: 4px 10px;
+        
+    }
+    html{
+        scroll-padding-top: 24.1%;
+    }
+    .Home{
+        height: 55rem;
+        width: 100%;
+        display: flex;
+    }
+    .image{
+        height: 55rem;
+        width: 100%;
+        display: flex;
+    }
+    .Home .image .pic1{
+        height: 55rem;
+        width: 100%;
+        position: relative;
+        
+    }
+    .Home .image .pic2{
+        height: 60%;
+        width: 80%;
+        left: 10%;
+        top: 100%;
+        
+        border-radius: 50%;
+    }
+    .Home .image .pic3{
+        height: 70%;
+        width: 50%;
+        left: 25%;
+        top: 25%;
+        
+    }
+    .Menu{
+        height: 140rem;
+        display: inline-block;
+    }
+    .Menu .card{
+        position: relative;
+        top: 30px;
+        margin-top: 30px;
+        margin-left: 25%;
+    }
+
+    .Reviews{
+        height: 65rem;
+        width: 100%;
+        background-color: rgb(22, 92, 101);
+        display: inline-block;
+        
+    }
+    .Reviews video{
+        height: 30rem;
+        position: absolute;
+        left: 20%;
+        
+        margin-top: 3rem;
+        
+        
+    }
+    .main-review{
+        position: relative;
+        width: 90%;
+        top: 35rem;
+        right: 16.5rem;
+        
+    }
+    .review-card{
+        height: 90px;
+        width: 100%;
+        border: 2px solid black;
+        position: relative;
+        
+       
+        margin-top: 50px;
+        
+        border-radius: 50px;
+        
+        background-color: rgb(209, 187, 126);
+        
+    }
+    .review-card img{
+        height: 80%;
+        width: 12%;
+        margin-top: 1%;
+        margin-left: 30px;
+        border-radius: 50%;
+    }
+    .review-card p{
+        width: 73%;
+        margin-top: 10px;
+        font-size: 15px;
+        
+        font-family: Georgia;
+    }
+    .Contact{
+        height: 48rem;
+        width: 100%;
+        background-color:  rgb(187, 149, 106);
+        display: flex;
+    }
+    .Contact h1{
+        font-size: 25px;
+        text-align: center;
+        padding-top: 50px;
+        position: absolute;
+        right: 5rem;
+    }
+    .Contact video{
+        position: absolute;
+        height: 400px;
+        width: 90%;
+        
+        left: 5%;
+        margin-top: 50px;
+        z-index: 1;
+        
+    }
+    .Contact h2{
+        font-size: 25px;
+        font-family: geneva;
+        
+        padding-top: 80%;
+        position: absolute;
+        right: 11rem;
+        margin-top: 10%;
+        text-align: center;
+    }
+    .Contact iframe{
+        margin-top: 100%;
+        position: absolute;
+        left: 5.5rem;
+    }
+}
